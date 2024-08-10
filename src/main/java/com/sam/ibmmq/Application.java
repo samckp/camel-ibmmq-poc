@@ -1,13 +1,13 @@
-package com.camel.ibmmq;
+package com.sam.ibmmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaIbmmqPocApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaIbmmqPocApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
